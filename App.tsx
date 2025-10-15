@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Toaster } from './components/ui/sonner';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 // Screens
 import { WelcomeScreen } from './components/WelcomeScreen';
@@ -9,18 +9,20 @@ import { AboutScreen } from './components/AboutScreen';
 import { AuthScreen } from './components/AuthScreen';
 import { EnhancedHomeScreenV2 } from './components/EnhancedHomeScreenV2';
 import { VendorScreen } from './components/VendorScreen';
-import { ProductScreen } from './components/ProductScreen';
-import { CartScreen } from './components/CartScreen';
-import { OrdersScreen } from './components/OrdersScreen';
-import { BillUploadScreen } from './components/BillUploadScreen';
-import { ProfileScreen } from './components/ProfileScreen';
-import { SmartAssistant } from './components/SmartAssistant';
-import { SocialHub } from './components/SocialHub';
-import { AnalyticsDashboard } from './components/AnalyticsDashboard';
-import { RewardsHub } from './components/RewardsHub';
-import { MadeInIndiaFinder } from './components/MadeInIndiaFinder';
-import { VendorAuthScreen } from './components/VendorAuthScreen';
-import { VendorDashboard } from './components/VendorDashboard';
+import { 
+  ProductScreen, 
+  CartScreen, 
+  OrdersScreen, 
+  BillUploadScreen, 
+  ProfileScreen, 
+  SmartAssistant, 
+  SocialHub, 
+  AnalyticsDashboard, 
+  RewardsHub, 
+  MadeInIndiaFinder, 
+  VendorAuthScreen, 
+  VendorDashboard 
+} from './components/PlaceholderComponents';
 
 // Utils
 import { initializeGeminiService } from './utils/gemini-ai';
@@ -60,7 +62,7 @@ import {
   getTierMultiplier,
   ACHIEVEMENTS,
   DAILY_CHALLENGES,
-} from './components/GameificationSystem';
+} from './components/PlaceholderComponents';
 
 // ==================== TYPE DEFINITIONS ====================
 
